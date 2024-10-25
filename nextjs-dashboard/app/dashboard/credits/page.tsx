@@ -11,10 +11,8 @@ export default function Page() {
             <h1>Crédits</h1>
             <div>
                 <Image src="/nolan.jpg" alt="Nolan Duthil" width={200} height={200} />
-            <p>Cet examen est l'oeuvre de Nolan Duthil</p>
+                <p>Cet examen est l&apos;oeuvre de Nolan Duthil</p>
             </div>
         </div>
-
-    )
-
+    );
 }
