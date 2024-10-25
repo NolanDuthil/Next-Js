@@ -13,7 +13,6 @@ export default function Page() {
         <h1 className={`${lusitana.className} text-2xl`}>Customers</h1>
       </div>
       <Suspense fallback={<div>Loading...</div>}>
-        <Table />
       </Suspense>
     </div>
   );
